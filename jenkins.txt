@@ -4,7 +4,7 @@ pipeline {
 		stage ("Git checkout"){
 			steps {
 				git branch: "main",
-					url: "https://github.com/yashwinalla/DevSecOps-SAST.git"
+					url: "https://github.com/yashwinalla/SAST.git"
 				sh "ls"
 			}
 		}
